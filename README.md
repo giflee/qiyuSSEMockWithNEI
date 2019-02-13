@@ -3,7 +3,9 @@
 
 #### 从nei上拉取/api/callcenter/polling接口的mock数据
 
-#### npm install qiyussemockwithnei -g
+```bash
+  npm install qiyussemockwithnei -g
+```
 
 #### 在web-callcenter目录下执行 neisses命令
 
