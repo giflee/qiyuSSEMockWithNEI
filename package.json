@@ -1,0 +1,14 @@
+{
+  "name": "qiyussemockwithnei",
+  "version": "1.0.0",
+  "description": "sse server mock with nei",
+  "main": "index.js",
+  "bin": {
+    "neisses": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gif",
+  "license": "MIT"
+}
