@@ -6,7 +6,7 @@ var eventObj = {};
 
 http.createServer((request, response) => {
 
-    if (request.url == '/api/callcenter/polling') {
+    if (request.url.indexOf('/api/callcenter/polling') != -1) {
 
         fs.readFile('./mocks/api/get/api/callcenter/stats/realtime/polling/data.json', (err, buffer) => {
             if (err) throw err;
