@@ -7,6 +7,10 @@
   npm install qiyussemockwithnei -g
 ```
 
-#### 在web-callcenter目录下执行 neisses命令
+#### 在web-callcenter目录下执行neisses命令
+
+```bash
+  neisses
+```
 
 http://127.0.0.1:8866/api/callcenter/polling 即为采用nei上mock数据的EventSource服务
